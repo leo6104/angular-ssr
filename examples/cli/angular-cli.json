@@ -1,6 +1,6 @@
 {
   "project": {
-    "version": "1.0.0-rc.2",
+    "version": "1.0.0",
     "name": "angular-ssr-cli-example"
   },
   "apps": [
@@ -19,7 +19,7 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "../node_modules/@angular/material/core/theming/prebuilt/indigo-pink.css"
+        "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -38,7 +38,7 @@
   ],
   "test": {},
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "prefixInterfaces": false,
     "inline": {
       "style": false,
